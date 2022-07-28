@@ -1,0 +1,56 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    margin: 0;
+    color: #323649;
+}
+
+.header {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    padding: 32px 96px;
+    font-weight: 150;
+    border-bottom: 8px rgb(206, 229, 255) solid;
+}
+
+a {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: #323649;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.nav {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 22px;
+    font-weight: 10;
+    color: rgb(53, 102, 158);
+}
+
+.desc {
+    padding: 12px 96px;
+    font-size: 30px;
+    line-height: 1.5;
+    font-weight: 120;
+}
+
+.projects {
+    margin: 32px 96px;
+    background-color: rgb(206, 229, 255);
+    border-radius: 30px;
+    height: 400px;
+}
