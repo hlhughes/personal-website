@@ -1,0 +1,30 @@
+.card {
+    display: flex;
+    
+    justify-content: space-around;
+}
+.btns-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 20px;
+    padding: 10px;
+}
+.intro {
+    width: 480px;
+    padding: 20px auto;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgb(149, 195, 255);
+    margin: 0 20px;
+}
+body {
+    margin: 30px 0;
+    background-color: aliceblue;
+}
+btns {
+    font-size: 40px;
+}
+.intro-text {
+    font-size: 20px;
+}
