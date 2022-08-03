@@ -1,6 +1,6 @@
-* {
+    * {
     box-sizing: border-box;
-  }
+    }
 
 @media only screen and (min-width: 0px) {
     .header {
@@ -19,6 +19,7 @@
     .links {
         width: 100%;
         justify-content: space-evenly;
+        margin: 0 15px;
     }
 
     .landing {
@@ -34,7 +35,7 @@
         text-align: center;
     }
 
-    .about {
+    #about {
         padding: 22px 32px;
     }
     .h1-projects {
@@ -57,8 +58,9 @@
     }
 
     .links {
-        width: 50%;
+        width: 40%;
         justify-content: space-between;
+        margin: 0;
     }
 
     .landing {
@@ -73,7 +75,7 @@
     .p-about {
         text-align: left;
     }
-    .about {
+    #about {
         padding: 22px 96px;
     }
     .h1-projects {
@@ -81,11 +83,28 @@
     }
 }
 
+.project-flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 84px;
+}
+
+.actual-project {
+    background-color: rgb(206, 229, 255);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 0 12px 12px 12px;
+    width: 47%;
+} 
+
+
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Merriweather', serif;
     background-color: #ffffff;
     margin: 0;
     padding: 0;
+    color: #355477;
 }
 
 .header {
@@ -93,13 +112,12 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    border-bottom: 8px rgb(206, 229, 255) solid;
+    border-bottom: 10px rgb(206, 229, 255) solid;
 }
 
 h2 {
     margin: 0;
     font-weight: normal;
-    color: #323649;
 }
 
 .links {
@@ -110,12 +128,12 @@ a {
     padding: 0;
     margin: 0;
     text-decoration: none;
-    color: #323649;
     text-align: center;
     font-size: 24px;
+    color: #355477;
 }
 
-.a-links:hover {
+a:hover {
     text-decoration: underline;
 }
 
@@ -123,20 +141,19 @@ a {
     width: 480px;
     padding: 0;
     margin: 0;
-    color: rgb(53, 102, 158);
 }
 
 .landing {
-    color: #323649;
     font-size: 28px;
     line-height: 1.5;
     font-weight: normal;
     margin: 0;
-    border-bottom: 8px rgb(206, 229, 255) solid;
+    border-bottom: 10px rgb(206, 229, 255) solid;
+    background-color: #45658a;
+    color: #ffffff;
 }
 
 h1 {
-    color: #323649;
     font-weight: normal;
     font-size: 32px;
     margin: 0;
@@ -148,13 +165,14 @@ p {
 }
 
 .footer {
-    background-color: rgb(206, 229, 255);
+    background-color: #45658a;
+    border-top: 10px rgb(206, 229, 255) solid;
     display: flex;
     justify-content: space-between;
+    margin-top: 16px;
 }
 
-.about {
-    color: #323649;
+#about {
     font-size: 24px;
     line-height: 1.5;
 }
@@ -163,5 +181,6 @@ p {
 }
 
 .a-footer {
-    font-size: 15px;
+    font-size: 18px;
+    color: #ffffff;
 }
